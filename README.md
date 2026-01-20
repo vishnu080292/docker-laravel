@@ -57,3 +57,47 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+
+# Dockerized Laravel Application
+
+This repository contains a Laravel application containerized using Docker.
+The goal of this project is to learn and demonstrate Docker and Kubernetes
+workflows for a Laravel-based application.
+
+---
+
+## Tech Stack
+
+- Laravel
+- PHP 8.2
+- Apache
+- Docker
+- (Kubernetes – coming next)
+
+---
+
+## Project Structure
+
+- Laravel application source code
+- Dockerfile for building the application image
+- Docker-based local development setup
+
+---
+
+## Prerequisites
+
+- Docker installed
+- Git installed
+
+---
+
+## Build Docker Image
+
+From the project root:
+
+```bash
+docker build -t laravel-application .
+
+http://localhost:8080
+
